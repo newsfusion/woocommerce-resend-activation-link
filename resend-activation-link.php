@@ -25,7 +25,7 @@ function modify_user_table_row( $val, $column_name, $user_id ) {
             return get_user_meta( $user_id, '_woocommerce_activation', true ) ?
                 '<a class="wc-gzd-resend-activation-link button button-secondary" href='
                 . wp_nonce_url( add_query_arg(  array( 'gzd-resend-activation' => 'yes' ), self_admin_url( 'user-edit.php?user_id=' . $user_id ) ) , 'resend-activation-link' )
-            . '> Resend activation link </a>' : ''; //generate link for resending activation email
+            . '> Resend link </a>' : ''; //generate link for resending activation email
         default:
 
     }
