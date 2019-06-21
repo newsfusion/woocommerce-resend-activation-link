@@ -21,9 +21,8 @@ column has a button to resend activation email to the user.
 * 1.0.0
     * First release
 
-## Meta
 
-Your Name – [@NFpeter](https://twitter.com/NFpeter)
-
+## Author
+Peter Schael – [@NFpeter](https://twitter.com/NFpeter) 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
